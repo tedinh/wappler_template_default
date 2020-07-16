@@ -1,0 +1,34 @@
+{
+  "projectName": "Default Template",
+  "gitURL": "https://github.com/tedinh/wappler_template_default.git",
+  "projectType": "web",
+  "designFramework": "bootstrap4",
+  "projectServerModel": "node",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "node",
+  "styleFile": "/styles.css",
+  "targets": [
+    {
+      "targetType": "heroku",
+      "name": "wappler-default-template",
+      "herokuProjectID": "wappler-template-default",
+      "remoteURL": "https://wappler-template-default.herokuapp.com"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "jquery_slim_34",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "cdn"
+    }
+  ],
+  "activeTarget": "wappler-default-template"
+}
