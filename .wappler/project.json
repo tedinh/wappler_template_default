@@ -37,5 +37,5 @@
       "type": "cdn"
     }
   ],
-  "activeTarget": "Development"
+  "activeTarget": "Production"
 }
