@@ -11,9 +11,15 @@
   "targets": [
     {
       "targetType": "heroku",
-      "name": "wappler-default-template",
+      "name": "Development",
       "herokuProjectID": "wappler-template-default",
       "remoteURL": "https://wappler-template-default.herokuapp.com"
+    },
+    {
+      "targetType": "heroku",
+      "name": "Production",
+      "remoteURL": "wappler-template-default",
+      "usage": "production"
     }
   ],
   "frameworks": [
@@ -30,5 +36,5 @@
       "type": "cdn"
     }
   ],
-  "activeTarget": "wappler-default-template"
+  "activeTarget": "Development"
 }
