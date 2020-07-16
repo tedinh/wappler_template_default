@@ -18,8 +18,9 @@
     {
       "targetType": "heroku",
       "name": "Production",
-      "remoteURL": "wappler-template-default",
-      "usage": "production"
+      "remoteURL": "https://wappler-template-default.herokuapp.com",
+      "usage": "production",
+      "herokuProjectID": "wappler-template-default"
     }
   ],
   "frameworks": [
