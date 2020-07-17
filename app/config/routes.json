@@ -2,8 +2,7 @@
   "routes": [
     {
       "path": "/",
-      "page": "index",
-      "layout": "main"
+      "page": "index"
     }
   ]
 }
